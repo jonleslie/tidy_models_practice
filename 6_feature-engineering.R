@@ -21,7 +21,7 @@ names(test_ex) %>% head()
 
 # This will get the processed training set
 bake(simple_ames, new_data = NULL) %>% nrow()
-
+ames_train %>% nrow()
 
 # 6.3 Encoding qualitative data into numeric ------------------------------
 
@@ -103,7 +103,7 @@ tidy(lm_fit)
 predict(lm_fit, ames_test_prepped %>% head())
 
 
-# 6.9 Tidy a recipy -------------------------------------------------------
+# 6.9 Tidy a recipe -------------------------------------------------------
 
 
 
